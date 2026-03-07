@@ -17,7 +17,7 @@ const Hero = () => {
         slidesToShow: 1,/* Number of slides visible at once.Only one slide is shown at a time */
         slidesToScroll: 1, /*Number of slides moved on each action.Clicking arrow or dot moves 1 slide at a time */
         arrows: false,/*Hides previous/next arrow buttons */
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
 
     }
