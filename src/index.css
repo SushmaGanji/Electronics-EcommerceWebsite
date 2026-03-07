@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --baby-pink: #f7c1d9;
+  --lemon-yellow: #fff176;
+}
+
+@layer utilities {
+  .bg-babypink {
+    background-color: var(--baby-pink);
+  }
+  .bg-lemonyellow {
+    background-color: var(--lemon-yellow);
+  }
+  .text-babypink {
+    color: var(--baby-pink);
+  }
+  .text-lemonyellow {
+    color: var(--lemon-yellow);
+  }
+}
