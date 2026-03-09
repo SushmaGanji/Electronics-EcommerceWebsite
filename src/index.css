@@ -4,3 +4,12 @@
   --theme-yellow: #ffd600; /* rich theme yellow */
   --theme-purple: #6d28d9;
 }
+
+#icons {
+  display: none;
+}
+#product-box:hover {
+  #icons {
+    display: flex;
+  }
+}
