@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { MdOutlineRemoveRedEye, MdAddShoppingCart } from "react-icons/md";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 import { products } from '../export.js'
