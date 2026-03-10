@@ -57,7 +57,7 @@ const Reviews = () => {
     return (
         <div id="testimonials" className="w-full lg:px-20 px-5 py-[80px] bg-gray-100 flex flex-col justify-center items-center gap-4">
             <h1 data-aos="zoom-in" data-aos-delay="100" className="text-(--theme-purple) text-xl font-semibold capitalize">1300+ customer reviews</h1>
-            <h1 data-aos="zoom-in" data-aos-delay="2000" className="text-black font-semibold text-[42px] leading-[50px] text-center capitalize">Our Customer Love</h1>
+            <h1 data-aos="zoom-in" data-aos-delay="200" className="text-black font-semibold text-[42px] leading-[50px] text-center capitalize">Our Customer Love</h1>
             <div data-aos="zoom-in" data-aos-delay="300" className="w-full mt-10">
                 <Slider className="w-full" {...settings}>
                     {
